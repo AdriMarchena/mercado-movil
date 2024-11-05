@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "97997194610",
+    "project_id": "phoneauthentication-4764b",
+    "storage_bucket": "phoneauthentication-4764b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97997194610:android:30bc0688c17c394708c9eb",
+        "android_client_info": {
+          "package_name": "com.alvacode.mercadomovilapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcZPpnFX-fPwURDJWZd3zr99blTIIX0CA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97997194610:android:6674974fa6481cd808c9eb",
+        "android_client_info": {
+          "package_name": "com.mercadomovil.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcZPpnFX-fPwURDJWZd3zr99blTIIX0CA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

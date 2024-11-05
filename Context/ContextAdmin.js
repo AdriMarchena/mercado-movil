@@ -1,0 +1,32 @@
+import {createContext} from 'react';
+export default createContext({
+    dataAdmin : {
+        name : '',
+        document : '',
+        lastName:'',
+        email : '',
+        phone : '',
+        password : '',
+        stores : '',
+        nameAdmin : '',
+        dataStores : []
+    },
+    tokenAdmin : null,
+    isSession : false,
+    tokenClient : null,
+    loadingDataAdmin : false,
+    updateDataAdmin : (admin)=>{},
+    pushDataAdmin :async (admin, setError)=>{},
+    pushDataCategories : (dataCategories, setError)=>{},
+    pushDataStore:async (dataStore)=>{},
+    updateDataStores : (stores)=>{},
+    handleSubmit : async (dataStores)=>{},
+    fetchDataCategories :async ()=>{},
+    signIn: async(dataAdmin, setError)=>{},
+    signup : async()=>{},
+    signOut : async ()=>{},
+    getDataAdminStorage:()=>{},
+    pushToConfigPassword : ()=>{},
+    pushToCategories :()=>{},
+    pushToEmailVerification:async()=>{},
+})
